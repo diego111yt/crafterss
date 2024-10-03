@@ -44,14 +44,16 @@ class logeo(cs.CTk):
                 consulta = paciente(pacientes)  
                 pacientes.mainloop()
                 messagebox.showinfo("Éxito", "Iniciaste correctamente.")
-            elif resultado == "superUsuario":
+            elif resultado == "SuperUsuario":
                 
                 self.destroy() 
                 
-                if __name__ == "__main__":
-                    app = MainApp()
-                    app.mainloop()
+                __name__ == "__main__"
+                app = MainApp()
+                app.mainloop()
                 
+                
+                ##hola
             else:
                 messagebox.showerror("Error", "Usuario o contraseña incorrectos.")
         except Exception as e:
